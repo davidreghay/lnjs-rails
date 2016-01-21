@@ -1,7 +1,7 @@
 # lnjs-rails 
 ### excruciatingly lightweight logging for your RoR app's JS
 
-ln.js is a teensy tool I made for nicely formatted level-cognizant logging in JavaScript.  Lover of RoR that I am, I gemified it for easy inclusion in rails apps!
+[ln.js](https://github.com/davidreghay/ln.js) is a teensy tool I made for nicely formatted level-cognizant logging in JavaScript.  Lover of RoR that I am, I gemified it for easy inclusion in rails apps!
 
 ## Installation
 
