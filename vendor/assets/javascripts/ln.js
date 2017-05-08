@@ -1,6 +1,8 @@
 // Copyright (C) 2015, 2016, David Reghay
 
 // don't step on others' toes!
+
+console.log('this is new and only in dev')
 if(typeof Logger === 'undefined') { 
     var Logger = function(level) {
         //private
