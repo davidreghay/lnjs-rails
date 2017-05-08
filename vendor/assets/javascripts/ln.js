@@ -3,6 +3,10 @@
 // don't step on others' toes!
 
 console.log('this is new and only in dev')
+// some comment
+
+console.log('oh another comment')
+
 if(typeof Logger === 'undefined') { 
     var Logger = function(level) {
         //private
@@ -19,18 +23,13 @@ if(typeof Logger === 'undefined') {
             var month = time.getMonth() + 1;
             var date = time.getDate();
             var hour = time.getHours();
+            var nothing = null;
             var min = time.getMinutes();
             var sec = time.getSeconds();
             var mill = time.getMilliseconds();
             return ("" + month + '-' + date + '-' + year + ' ' + hour + ':' + min + '.' + sec + ',' + mill);
         };
-        //public
-        this.getLevel = function() {
-            return _level;
-        };
-        this.setLevel = function(l) {
-            if(typeof priority[l] !== 'undefined') _level = l;
-        };
+        
         this.e = Math.E;
         levels.forEach(function(l, i) {
             self[l] = function(data) {
