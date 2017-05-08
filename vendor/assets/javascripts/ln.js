@@ -41,5 +41,7 @@ if(typeof Logger === 'undefined') {
             };
             priority[l] = i;
         });
+
+        console.log('B-999 is where it\s at')
     };
 }
